@@ -8,5 +8,5 @@ tar -xvf teku-23.1.1
 cd ..
 git clone https://github.com/nethermindeth/nethermind --recursive
 cd nethermind
-git checkout verkle/unittests
+git checkout beverly-hills
 cd ..
