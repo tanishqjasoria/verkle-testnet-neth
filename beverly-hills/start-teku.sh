@@ -1,6 +1,6 @@
-./bin/teku --log-destination=CONSOLE --logging=info --network=../config/config.yaml \
+./teku/teku-23.1.1/bin/teku --log-destination=CONSOLE --logging=info --network=./config/config.yaml \
 --p2p-discovery-bootnodes="enr:-Iq4QJk4WqRkjsX5c2CXtOra6HnxN-BMXnWhmhEQO9Bn9iABTJGdjUOurM7Btj1ouKaFkvTRoju5vz2GPmVON2dffQKGAX53x8JigmlkgnY0gmlwhLKAlv6Jc2VjcDI1NmsxoQK6S-Cii_KmfFdUJL2TANL3ksaKUnNXvTCv1tLwXs0QgIN1ZHCCIyk,enr:-KG4QFV8Tkf7376xr6M2kNNnQS9-MtCsJDXf8gdIk5i088_rYsieP73aTU78ZjGtW39rNHdXt0YFSE5nLeGEAb5D5IMDhGV0aDKQCGSdJgAJAhL__________4JpZIJ2NIJpcIS8pkjaiXNlY3AyNTZrMaEDej-6y0VCa-JTo_qfPq6PLBwH1LywAOJDyzrLtCgJzueDdGNwgiMog3VkcIIjKA,enr:-Ly4QKKM58MxRGqdkKbLs03UGp-CM4qf-lek270k4jsZ-zH8ZmT9LgPM1F1D3GfWo6xQwMaEsW-cyNPviqjE05w1_BIBh2F0dG5ldHOIAAAAAAAAAACEZXRoMpAIZJ0mAAkCEv__________gmlkgnY0gmlwhKdHRsSJc2VjcDI1NmsxoQKJTQOA0_KQmoqwlUVBHaT-rwOOA1po1UAaS6AyjhZxcohzeW5jbmV0cwCDdGNwgiMog3VkcIIjKA" \
 --p2p-enabled=true --p2p-port=9000 --p2p-peer-upper-bound=25 --rest-api-enabled=true --rest-api-host-allowlist=* --rest-api-interface=127.0.0.1 --rest-api-port=4000 --rest-api-cors-origins=* \
 --rest-api-docs-enabled=false --data-storage-archive-frequency=2048 --data-storage-mode=PRUNE --ee-endpoint="http://127.0.0.1:8551" --ee-jwt-secret-file=/tmp/jwtsecret \
---metrics-enabled=true --metrics-host-allowlist=* --metrics-interface=127.0.0.1 --metrics-port=5054 --initial-state=../config/genesis.ssz --Xlog-include-p2p-warnings-enabled \
+--metrics-enabled=true --metrics-host-allowlist=* --metrics-interface=127.0.0.1 --metrics-port=5054 --initial-state=./config/genesis.ssz --Xlog-include-p2p-warnings-enabled \
 --Xmetrics-block-timing-tracking-enabled --Xprogressive-balances-mode=USED
