@@ -1,0 +1,6 @@
+./teku/teku-23.1.1/bin/teku --log-destination=CONSOLE --logging=info --network=./config/config.yaml \
+--p2p-discovery-bootnodes="enr:-Ly4QJeoz6UeL2JL2h54iUU0IU2XFi8TnRFHZAIrzGCOuOS_ZG5d6w0w-hMJF00nzsT6i5Pu1v2qHMKDudQUZhvpzp0Bh2F0dG5ldHOIAAAAAAAAAACEZXRoMpAqejCCAAaUIv__________gmlkgnY0gmlwhLI-49qJc2VjcDI1NmsxoQMKd2_x7QQbLg4VT0hWjPO_xrH8C0U1lTCqCE0lsO9fzohzeW5jbmV0cwCDdGNwgiMog3VkcIIjKA,enr:-Ly4QJOwAKdPlOWhIess30nOSjDeJk7tiyLPo1GUi9ORoGPkXZd9i6_U6yQ7WT0x8sWxtWNpErgXWf1bUuxpY36yzv8Bh2F0dG5ldHOIAAAAAAAAAACEZXRoMpCHKuKCAAaUIv__________gmlkgnY0gmlwhLI-49qJc2VjcDI1NmsxoQP2d5aJli9xLcD0CojyIUp5-1H7G1NZ_7-ky7pRJoLJPYhzeW5jbmV0cwCDdGNwgiMog3VkcIIjKA" \
+--p2p-enabled=true --p2p-port=9000 --p2p-peer-upper-bound=25 --rest-api-enabled=true --rest-api-host-allowlist=* --rest-api-interface=127.0.0.1 --rest-api-port=4000 --rest-api-cors-origins=* \
+--rest-api-docs-enabled=false --data-storage-archive-frequency=2048 --data-storage-mode=PRUNE --ee-endpoint="http://127.0.0.1:8551" --ee-jwt-secret-file=/tmp/jwtsecret \
+--metrics-enabled=true --metrics-host-allowlist=* --metrics-interface=127.0.0.1 --metrics-port=5054 --initial-state=./config/genesis.ssz --Xlog-include-p2p-warnings-enabled \
+--Xmetrics-block-timing-tracking-enabled --Xprogressive-balances-mode=USED
