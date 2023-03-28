@@ -19,7 +19,13 @@ git checkout verkle/kaustinen
 cd ..
 
 
-curl https://rpc.kaustinen.ethpandaops.io/ \
-  -X POST \
-  -H "Content-Type: application/json" \
-  --data '{"method":"eth_getBlockByNumber","params":["0",false],"id":1,"jsonrpc":"2.0"}'
+# curl https://rpc.kaustinen.ethpandaops.io/ \
+#   -X POST \
+#   -H "Content-Type: application/json" \
+#   --data '{"method":"eth_getBlockByNumber","params":["0x0",false],"id":1,"jsonrpc":"2.0"}'
+#
+#
+# curl https://rpc.kaustinen.ethpandaops.io/ \
+#   -X POST \
+#   -H "Content-Type: application/json" \
+#   --data '{"method":"eth_getBlockByHash","params":["0x9719e33386a223b9cac72e3923bc4fd94f2c28a6c61e3aca7977d9af7c5e54f3",false],"id":1,"jsonrpc":"2.0"}'
