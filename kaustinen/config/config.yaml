@@ -7,7 +7,7 @@ CONFIG_NAME: 'kaustinen' # needs to exist because of Prysm. Otherwise it conflic
 # ---------------------------------------------------------------
 # `2**14` (= 16,384)
 MIN_GENESIS_ACTIVE_VALIDATOR_COUNT: 100
-MIN_GENESIS_TIME: 1678354200
+MIN_GENESIS_TIME: 1679652600
 GENESIS_FORK_VERSION: 0x00069420
 GENESIS_DELAY: 120
 
