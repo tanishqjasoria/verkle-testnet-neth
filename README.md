@@ -6,6 +6,6 @@
 - run `beverly-hills/start-nethermind` to the start the nethermind EL with verkle trees enabled.
 
 ## kaustinen testnet
-- use `kaustinen/setup.sh` to download and setup nethermind and lighthouse - this will take quite a lot of time as this rebuilds lighthouse from source
+- use `kaustinen/setup.sh` to download and setup nethermind and lighthouse
 - run `kaustinen/start-lighthouse` to start the CL client
 - run `kaustinen/start-nethermind` to the start the nethermind EL with verkle trees and proofs enabled.
