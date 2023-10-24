@@ -1,0 +1,1 @@
+.lodestar/lodestar beacon --paramsFile config/config.yaml --genesisStateFile config/genesis.ssz --eth1.depositContractDeployBlock 0 --bootnodesFile custom-configs/boot_enr.yaml --dataDir lodestar --execution.urls http://127.0.0.1:8551 --rest.address 0.0.0.0 --rest.namespace '*' --jwt-secret /tmp/jwtsecret --logFileDailyRotate 5
